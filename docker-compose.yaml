@@ -22,7 +22,7 @@ services:
   user:
     image: user:v1
     continaer_name: user
-    depens_on:
+    depends_on:
     - mongodb
     - redis
   cart:
