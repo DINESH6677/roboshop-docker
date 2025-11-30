@@ -53,8 +53,8 @@ services:
     - cart
     - shipping
     - payment
-  networks:
-    default:
-      driver: bridge
-      name: roboshop
-      external: false # if there is no previous network then it creates
+networks:
+  default:
+    driver: bridge
+    name: roboshop
+    external: false # if there is no previous network then it creates
